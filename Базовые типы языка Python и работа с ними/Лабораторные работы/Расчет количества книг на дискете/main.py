@@ -1,0 +1,5 @@
+# TODO Найдите количество книг, которое можно разместить на дискете
+disk_capacity = 1.44*1024**2
+book_capacity = 100*50*25*4
+quantity = int(disk_capacity//book_capacity)
+print("Количество книг, помещающихся на дискету:", quantity)
